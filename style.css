@@ -6,7 +6,7 @@
     --navyblue-color: #2E2F42;
     --white: #FFF;
     --slate-color: #434455;
-    --ocena-color: #404BBF;
+    --ocean-color: #404BBF;
     --black: #000;
     
 }
@@ -16,7 +16,6 @@ body{
 }
 header{
     border-bottom: 1px solid var(--cornflower-color);
-    
 }
 footer>a{
     color: var(--cloud-color);
@@ -48,6 +47,9 @@ footer{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px
+}
+.contact>a{
+    color: var(--ocean-color);
 }
 a{
     text-decoration: none;
@@ -135,7 +137,7 @@ li{
     letter-spacing: 0.64px;
     color: var(--white);
     padding: 16px 32px;
-    background: var(--ocena-color);
+    background: var(--ocean-color);
 }
 dt{
     font-weight: bold;
