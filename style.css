@@ -5,42 +5,67 @@
     --iris-color: #4D5AE5;
     --navyblue-color: #2E2F42;
     --white: #FFF;
+    --slate-color: #434455;
+    --ocena-color: #404BBF;
+    --black: #000;
     
 }
-
 body{
-    font-family: roboto, raleway;
+    font-family: roboto, raleway, sans-serif;
     background-color: var(--white);
 }
 header{
     border-bottom: 1px solid var(--cornflower-color);
     
 }
-
+footer>a{
+    color: var(--cloud-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+footer>span{
+    
+    font-family: Raleway sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 footer{
     background-color: var(--navyblue-color);
     color: var(--white);
-    font-family: Raleway;
-}
-.first-h1{
-    color: var(--navyblue-color);
-}
-.second-h1{
-    color: var(--white);
+    
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px
 }
 a{
     text-decoration: none;
     color: var(--navyblue-color);
+    cursor: pointer;
+    font-family: Roboto sans-serif;
 }
 a:hover{
-   color: var(--navyblue-color);
-   cursor : pointer
+   color: var(--ocean-color);
+   cursor : pointer;
+   font-family: Roboto sans-serif;
 }
 span{
     color: var(--iris-color);
 }
 .buttons{
     text-align: center;
+    
 }
 button{
     padding: 12px 24px;
@@ -48,10 +73,14 @@ button{
     border: 1px solid  var(--cornflower-color);
     background:  var(--cloud-color);
     color: var(--iris-color);
+    cursor: pointer;
+    font-family: Roboto sans-serif;
 }
 button:hover{
     background-color: var(--iris-color);
     color: var(--white);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    font-family: Roboto sans-serif;
 }
 
 ul{
@@ -75,7 +104,73 @@ li{
     text-align: center;
     color: var(--white);
 }
+.order>h1{
+    font-family: Roboto sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.order>button{
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background: var(--iris-color);
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+}
+.order>button:hover{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-family: Roboto sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    padding: 16px 32px;
+    background: var(--ocena-color);
+}
 dt{
     font-weight: bold;
-    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    color: var(--navyblue-color);
+}
+dd{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--slate-color);
+}
+
+figcaption{
+    color:  var(--slate-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+figcaption>p{
+    color:  var(--navyblue-color);
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
