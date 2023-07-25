@@ -11,7 +11,7 @@
     
 }
 body{
-    font-family: roboto, raleway, sans-serif;
+    font-family: roboto, sans-serif;
     background-color: var(--white);
 }
 header{
@@ -19,21 +19,19 @@ header{
 }
 footer>a{
     color: var(--cloud-color);
-    font-family: Raleway, sans-serif;
+    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.166666667;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 footer>span{
     
-    font-family: Raleway sans-serif;
+    font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.166666667;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -41,26 +39,31 @@ footer{
     background-color: var(--navyblue-color);
     color: var(--white);
     
-    font-family: Roboto sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px
 }
-.contact>a{
+nav>.logo{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16667;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.contact{
+    font-style: normal;
     color: var(--ocean-color);
 }
 a{
     text-decoration: none;
     color: var(--navyblue-color);
     cursor: pointer;
-    font-family: Roboto sans-serif;
 }
 a:hover{
    color: var(--ocean-color);
    cursor : pointer;
-   font-family: Roboto sans-serif;
 }
 span{
     color: var(--iris-color);
@@ -76,13 +79,11 @@ button{
     background:  var(--cloud-color);
     color: var(--iris-color);
     cursor: pointer;
-    font-family: Roboto sans-serif;
 }
 button:hover{
     background-color: var(--iris-color);
     color: var(--white);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    font-family: Roboto sans-serif;
 }
 
 ul{
@@ -91,88 +92,80 @@ ul{
 }
 li{
     display: inline;
+    color: var(--slate-color);
     
 }
 .photos{
     border: 1px solid var(--cornflower-color);
+    padding-bottom: 0px;
     width: 360px;
     height: 420px;
-    padding-bottom: 0px;
+}
+.team{
+    background-color: var(--cloud-color);
 }
 .order{
-    width: 1440px;
-    height: 600px;
     background-color: var(--navyblue-color);
     text-align: center;
     color: var(--white);
 }
 .order>h1{
-    font-family: Roboto sans-serif;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07142857;
     letter-spacing: 1.12px;
 }
 .order>button{
-    font-family: Roboto sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     color: var(--white);
     background: var(--iris-color);
     padding: 16px 32px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    
+    border-radius: 4px;
+    border: 0;
 }
 .order>button:hover{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-family: Roboto sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     color: var(--white);
     padding: 16px 32px;
     background: var(--ocean-color);
+    border-radius: 4px;
 }
 dt{
     font-weight: bold;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 120% */
+    line-height: 1.2; /* 120% */
     letter-spacing: 0.4px;
     color: var(--navyblue-color);
 }
 dd{
-    font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
     color: var(--slate-color);
 }
 
 figcaption{
     color:  var(--slate-color);
-    font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
+    width: 232px;
 }
 figcaption>p{
     color:  var(--navyblue-color);
-    font-family: Roboto, sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
