@@ -11,7 +11,7 @@
     
 }
 body{
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     color: var(--slate-color);
     background-color: var(--white);
 }
@@ -189,7 +189,7 @@ figcaption>p{
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.a link{
+.aaa{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -197,25 +197,21 @@ figcaption>p{
     color: var(--navyblue-color);
     text-decoration: none;
 }
-.a:hover, .a:focus{
+.aaaa:hover, .aaa:focus{
     color: var(--ocean-color);
-}
-address{
-    font-style: normal;
-
 }
 .list{
     list-style: none;
 
 }
-.contact{
+.contact link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
     text-decoration: none; 
 }
-.contact:hover, .contact:focus{
+.contact link:hover, .contact link:focus{
     color: var(--ocean-color);
 }
 .solution{
@@ -224,4 +220,5 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    font-style: normal;
 }
