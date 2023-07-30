@@ -54,6 +54,14 @@ nav>a>.logo{
     color: var(--iris-color);
     font-style: normal;
 }
+nav>ul>li>a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+    text-decoration: none;  
+}
 .logo{
     line-height: 1.17;
     font-family: RalewayS sans-serif;
@@ -68,14 +76,6 @@ nav>a>.logo{
 }
 .list>a{
     color: var(--slate-color);
-}
-a{
-    text-decoration: none;
-    color: var(--navyblue-color);
-}
-a:hover, a:focus{
-   color: var(--ocean-color);
-
 }
 .sph{
     /* span w headerze */
@@ -118,7 +118,6 @@ li{
     color: var(--slate-color);
     
 }
-
 .team{
     background-color: var(--cloud-color);
 }
@@ -181,7 +180,7 @@ figcaption>p{
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.aaa{
+.aaa link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -204,4 +203,7 @@ figcaption>p{
 }
 .adr{
     font-style: normal;
+}
+.down_logo_description{
+    color: var(--cloud-color);
 }
