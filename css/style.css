@@ -1,0 +1,227 @@
+
+:root{
+    --cloud-color: #F4F4FD;
+    --cornflower-color: #E7E9FC;
+    --iris-color: #4D5AE5;
+    --navyblue-color: #2E2F42;
+    --white: #FFF;
+    --slate-color: #434455;
+    --ocean-color: #404BBF;
+    --black: #000;
+    
+}
+body{
+    font-family: roboto, sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white);
+}
+
+footer>a{
+    color: var(--cloud-color);
+    font-family: Raleway, sans-serif ;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+footer>span{
+    
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+footer{
+    background-color: var(--navyblue-color);
+    color: var(--white); 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px
+}
+.link{
+    text-decoration: none;
+}
+nav>a>.logo{
+    
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    color: var(--iris-color);
+    font-style: normal;
+}
+.logo{
+    line-height: 1.17;
+    font-family: RalewayS sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    color: var(--iris-color);
+    font-style: normal;
+}
+nav>li>a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
+    color: var(--navyblue-color);
+}
+.list>a{
+    color: var(--slate-color);
+}
+a{
+    text-decoration: none;
+    color: var(--navyblue-color);
+}
+a:hover, a:focus{
+   color: var(--ocean-color);
+
+}
+.sph{
+    /* span w headerze */
+    color: var(--navyblue-color);
+}
+.spf{
+    /* span w footerze */
+    color: var(--cloud-color);
+}
+.buttons{
+    text-align: center;
+}
+.buttons>button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.64px;
+    
+}
+button{
+    
+    background:  var(--cloud-color);
+    color: var(--iris-color);
+    font-family: Roboto;
+    cursor: pointer;
+    
+}
+button:hover, button:focus{
+    background-color: var(--iris-color);
+    color: var(--white);
+    
+    font-family: Roboto;
+}
+
+.list{
+    list-style: none;
+    
+}
+li{
+ 
+    color: var(--slate-color);
+    
+}
+
+.team{
+    background-color: var(--cloud-color);
+}
+.order{
+    background-color: var(--navyblue-color);
+    text-align: center;
+    color: var(--white);
+}
+.order>h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.order>button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background: var(--iris-color);
+    
+    font-family: Roboto;
+}
+.order>button:hover, .order>button:focus{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background: var(--ocean-color);
+    font-family: Roboto;
+}
+dt{
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.4px;
+    color: var(--navyblue-color);
+}
+dd{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--slate-color);
+}
+
+figcaption{
+    color:  var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+figcaption>p{
+    color:  var(--navyblue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.a link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+    text-decoration: none;
+}
+.a:hover, .a:focus{
+    color: var(--ocean-color);
+}
+address{
+    font-style: normal;
+
+}
+.list{
+    list-style: none;
+
+}
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+    text-decoration: none; 
+}
+.contact:hover, .contact:focus{
+    color: var(--ocean-color);
+}
+.solution{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
