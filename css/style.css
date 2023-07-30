@@ -136,11 +136,12 @@ li{
     text-align: center;
     color: var(--white);
 }
-.order>h1{
+.solution{
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
 }
 .order>button{
     font-size: 16px;
@@ -150,7 +151,7 @@ li{
     color: var(--white);
     background: var(--iris-color);
     
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
 }
 .order>button:hover, .order>button:focus{
     font-size: 16px;
@@ -161,15 +162,15 @@ li{
     background: var(--ocean-color);
     font-family: Roboto;
 }
-dt{
+.title-of-description{
     font-weight: bold;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0,02em;
     color: var(--navyblue-color);
 }
-dd{
+.description{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -200,10 +201,6 @@ figcaption>p{
 .aaa link:hover, .aaa link:focus{
     color: var(--ocean-color);
 }
-.list{
-    list-style: none;
-
-}
 .contact link{
     font-size: 16px;
     line-height: 1.5;
@@ -214,11 +211,6 @@ figcaption>p{
 .contact link:hover, .contact link:focus{
     color: var(--ocean-color);
 }
-.solution{
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--white);
+.adr{
     font-style: normal;
 }
