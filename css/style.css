@@ -170,23 +170,6 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-
-.header{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--navyblue-color);   
-}
-section.third_section>h4.headers, .team>h4.abc{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--navyblue-color);  
-}
 .headers{
     font-size: 36px;
     line-height: 1.11;
@@ -194,12 +177,4 @@ section.third_section>h4.headers, .team>h4.abc{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navyblue-color);   
-}
-
-.hfour{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
 }
