@@ -163,7 +163,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-.example{
+.example-headers{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -171,7 +171,7 @@ address{
     text-transform: capitalize;
     color: var(--navyblue-color);   
 }
-.same{
+.example-headers-third{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
