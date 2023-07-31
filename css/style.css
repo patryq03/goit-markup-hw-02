@@ -62,7 +62,8 @@ button{
     
 }
 button:hover, button:focus{
-    background-color: var(--iris-color);
+    
+    background-color: var(--ocean-color);
     color: var(--white);
     font-family: Roboto, sans-serif;
 }
