@@ -178,3 +178,8 @@ h3>.wawd{
     color: var(--navyblue-color);
     list-style: none;
 }
+.awadm:hover, .awadm:focus{
+    background-color: var(--ocean-color);
+    color: var(--white);
+    font-family: Roboto, sans-serif; 
+}
