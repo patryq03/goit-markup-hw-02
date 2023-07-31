@@ -103,7 +103,7 @@ li{
 .title-of-description{
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2; /* 120% */
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue-color);
 }
@@ -171,11 +171,13 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-.wawd{
+h3>.wawd{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navyblue-color);
+    list-style: none;
+    text-decoration: none;
 }
