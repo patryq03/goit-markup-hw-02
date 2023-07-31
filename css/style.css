@@ -221,9 +221,3 @@ figcaption>p{
 address{
     font-style: normal;
 }
-ul{
-    list-style: none;
-}
-nav>address>ul>li>a{
-    color: var(--slate-color);    
-}
