@@ -64,11 +64,10 @@ nav>ul>li>a{
 }
 .logo{
     line-height: 1.17;
-    font-family: RalewayS sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     color: var(--iris-color);
@@ -208,4 +207,13 @@ figcaption>p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none; 
+}
+address{
+    font-style: normal;
+}
+ul{
+    list-style: none;
+}
+nav>address>ul>li>a{
+    color: var(--slate-color);    
 }
