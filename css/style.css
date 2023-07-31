@@ -179,7 +179,7 @@ address{
     text-transform: capitalize;
     color: var(--navyblue-color);   
 }
-.third_section>h4.abc, .team>h4.abc{
+section.third_section>h4.headers, .team>h4.abc{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -187,7 +187,7 @@ address{
     text-transform: capitalize;
     color: var(--navyblue-color);  
 }
-.abc{
+.headers{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
