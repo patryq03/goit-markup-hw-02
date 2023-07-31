@@ -24,7 +24,6 @@ footer{
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     color: var(--iris-color);
-    
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -113,19 +112,18 @@ li{
     letter-spacing: 0.02em;
     color: var(--slate-color);
 }
-
-figcaption{
-    color:  var(--slate-color);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.0.2em;
-}
-figcaption>p{
+.bigger_p{
     color:  var(--navyblue-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+.smaller_p{
+    color:  var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
 }
 .lia{
     font-weight: 500;
