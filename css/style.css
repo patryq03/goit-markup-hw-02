@@ -71,7 +71,8 @@ button:hover, button:focus{
 
 }
 li{
-    color: var(--slate-color);  
+    color: var(--slate-color); 
+    background-color: var(--white);
 }
 .team{
     background-color: var(--cloud-color);
@@ -169,7 +170,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-.h-3{
+.hhh{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
