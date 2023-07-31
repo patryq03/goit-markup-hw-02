@@ -180,7 +180,7 @@ figcaption>p{
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.lia link{
+.lia{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -188,17 +188,17 @@ figcaption>p{
     color: var(--navyblue-color);
     text-decoration: none;
 }
-.lia link:hover, .lia link:focus{
+.lia:hover, .lia:focus{
     color: var(--ocean-color);
 }
-.contact link{
+.contact{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
     text-decoration: none; 
 }
-.contact link:hover, .contact link:focus{
+.contact:hover, .contact:focus{
     color: var(--ocean-color);
 }
 .adr{
