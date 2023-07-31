@@ -197,7 +197,7 @@ figcaption>p{
 .contact:hover, .contact:focus{
     color: var(--ocean-color);
 }
-.adr{
+.contact-to-firm{
     font-style: normal;
 }
 .down_logo_description{
