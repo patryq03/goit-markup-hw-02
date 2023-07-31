@@ -15,30 +15,9 @@ body{
     color: var(--slate-color);
     background-color: var(--white);
 }
-footer>a{
-    color: var(--iris-color);
-    font-family: Raleway, sans-serif ;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-footer>span{
-    
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
 footer{
     background-color: var(--navyblue-color);
     color: var(--white); 
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px
 }
 .link{
     text-decoration: none;
@@ -74,9 +53,8 @@ nav>ul>li>a{
     font-style: normal;
 }
 .down_logo{
-    line-height: 1.17;
-    font-size: 18px;
     font-weight: 800;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
