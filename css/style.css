@@ -65,14 +65,14 @@ button{
 button:hover, button:focus{
     background-color: var(--iris-color);
     color: var(--white);
-    
     font-family: Roboto, sans-serif;
 }
+.awadm:focus, .awadm:hover{
+    background-color: var(--ocean-color);
 
+}
 li{
- 
-    color: var(--slate-color);
-    
+    color: var(--slate-color);  
 }
 .team{
     background-color: var(--cloud-color);
@@ -179,5 +179,4 @@ h3>.wawd{
     text-transform: capitalize;
     color: var(--navyblue-color);
     list-style: none;
-    text-decoration: none;
 }
