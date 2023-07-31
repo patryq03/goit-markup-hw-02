@@ -192,11 +192,7 @@ figcaption>p{
     color: var(--ocean-color);
 }
 .contact{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-    text-decoration: none; 
+    color: var(--slate-color); 
 }
 .contact:hover, .contact:focus{
     color: var(--ocean-color);
@@ -206,4 +202,10 @@ figcaption>p{
 }
 .down_logo_description{
     color: var(--cloud-color);
+}
+.link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none; 
 }
