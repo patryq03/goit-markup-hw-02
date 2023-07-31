@@ -22,25 +22,7 @@ footer{
 .link{
     text-decoration: none;
 }
-nav>a>.logo{
-    
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    font-family: Raleway, sans-serif;
-    color: var(--iris-color);
-    font-style: normal;
-}
-nav>ul>li>a{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
-    text-decoration: none;  
-}
+
 .logo{
     font-size: 18px;
     font-weight: 800;
