@@ -62,7 +62,6 @@ button{
     
 }
 button:hover, button:focus{
-    
     background-color: var(--ocean-color);
     color: var(--white);
     font-family: Roboto, sans-serif;
@@ -170,7 +169,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-h3>.wawd{
+.h-3{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -178,9 +177,4 @@ h3>.wawd{
     text-transform: capitalize;
     color: var(--navyblue-color);
     list-style: none;
-}
-.awadm:hover, .awadm:focus{
-    background-color: var(--ocean-color);
-    color: var(--white);
-    font-family: Roboto, sans-serif; 
 }
