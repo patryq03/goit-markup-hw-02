@@ -170,7 +170,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-h4>.hhh{
+h3>.header{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -178,7 +178,7 @@ h4>.hhh{
     text-transform: capitalize;
     color: var(--navyblue-color);
 }
-.hhh{
+.header{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
