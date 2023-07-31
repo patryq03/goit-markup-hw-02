@@ -72,10 +72,7 @@ button:hover, button:focus{
     
     font-family: Roboto, sans-serif;
 }
-.list{
-    list-style: none;
-    
-}
+
 li{
  
     color: var(--slate-color);
@@ -151,6 +148,10 @@ figcaption>p{
 }
 .contact{
     color: var(--slate-color); 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none; 
 }
 .contact:hover, .contact:focus{
     color: var(--ocean-color);
@@ -169,4 +170,8 @@ figcaption>p{
 }
 address{
     font-style: normal;
+}
+.list{
+    list-style: none;
+    
 }
