@@ -178,3 +178,6 @@ address{
     color: var(--navyblue-color);
     list-style: none;
 }
+.our_team{
+    font-size: 36px;
+}
