@@ -170,14 +170,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-h3>.header{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--navyblue-color);
-}
+
 .header{
     font-size: 36px;
     line-height: 1.11;
@@ -186,6 +179,15 @@ h3>.header{
     text-transform: capitalize;
     color: var(--navyblue-color);   
 }
+.third_section>h4, .team>h4{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue-color);  
+}
+
 
 .hfour{
     font-weight: 500;
