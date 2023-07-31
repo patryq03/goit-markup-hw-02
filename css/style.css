@@ -73,6 +73,17 @@ nav>ul>li>a{
     color: var(--iris-color);
     font-style: normal;
 }
+.down_logo{
+    line-height: 1.17;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    color: var(--iris-color);
+    font-style: normal;
+}
 .list>a{
     color: var(--slate-color);
 }
