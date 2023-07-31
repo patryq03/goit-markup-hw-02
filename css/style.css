@@ -138,6 +138,8 @@ figcaption>p{
 .lia{
     font-weight: 500;
     color: var(--navyblue-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .lia:hover, .lia:focus{
     color: var(--ocean-color);
