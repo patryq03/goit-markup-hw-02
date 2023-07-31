@@ -66,7 +66,7 @@ button:hover, button:focus{
     color: var(--white);
     font-family: Roboto, sans-serif;
 }
-button>.awadm:focus, button>.awadm:hover{
+.awadm>button:focus, .awadm>button:hover{
     background-color: var(--ocean-color);
 
 }
