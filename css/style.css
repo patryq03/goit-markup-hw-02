@@ -101,7 +101,6 @@ li{
     font-family: Roboto, sans-serif;
 }
 .title-of-description{
-    font-weight: bold;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
@@ -111,7 +110,7 @@ li{
 .description{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     color: var(--slate-color);
 }
 
@@ -152,6 +151,8 @@ figcaption>p{
 }
 .down_logo_description{
     color: var(--cloud-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .link{  
     text-decoration: none; 
