@@ -171,10 +171,3 @@ h3 .example-headers{
     text-transform: capitalize;
     color: var(--navyblue-color);   
 }
-.example-headers-third>{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue-color);
-}
