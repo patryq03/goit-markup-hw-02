@@ -104,7 +104,6 @@ li{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate-color);
 }
 .bigger_p{
     color: var(--navyblue-color);
@@ -114,7 +113,6 @@ li{
     letter-spacing: 0.02em;
 }
 .smaller_p{
-    color:  var(--slate-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;   
@@ -163,9 +161,10 @@ address{
     letter-spacing: 0.02em;
     color: var(--white);
 }
-h3 .example-headers{
+.example-headers{
     font-size: 36px;
     line-height: 1.11;
+    font-weight: 700;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
